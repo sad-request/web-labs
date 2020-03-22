@@ -11,7 +11,7 @@ namespace print_args
                 Console.WriteLine("Number of arguments: " + args.Length);
                 Console.Write("Arguments: ");
                 for (int i = 0; i < args.Length; i++)
-                    Console.Write("'"+ args[i] + "', ");
+                    Console.Write(args[i] + " ");
                 Console.ReadKey(true);
             }
             else
