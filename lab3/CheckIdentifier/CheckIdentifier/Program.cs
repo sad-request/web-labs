@@ -20,10 +20,10 @@ namespace CheckIdentifier
 	{
 		foreach (char ch in input)
 		{
-		if (!IsLatinLetter(ch) && !char.IsDigit(ch))
-		{
-		    return false;
-		}
+			if (!IsLatinLetter(ch) && !char.IsDigit(ch))
+			{
+			    return false;
+			}
 		}
 		return true;
 	}
