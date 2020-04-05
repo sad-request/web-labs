@@ -17,7 +17,7 @@ namespace CheckIdentifier
         }
     	        
 		public static bool IsLatinLettersOrDigit(string input)
-        {
+		{
 	        foreach (char ch in input)
 	            {
 	                if (!IsLatinLetter(ch) && !char.IsDigit(ch))
