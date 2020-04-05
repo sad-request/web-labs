@@ -4,9 +4,8 @@ namespace CheckIdentifier
 {	    
     public static class Program
     {   
-
-			const string NoAnswer = "No";
-    	const string YesAnswer = "Yes";  
+    	const string NoAnswer = "No";
+    	const string YesAnswer = "Yes";
     	
     	public static bool IsLatinLetter(char ch)
         {
