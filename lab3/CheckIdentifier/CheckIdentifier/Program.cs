@@ -22,7 +22,7 @@ namespace CheckIdentifier
 		{
 			if (!IsLatinLetter(ch) && !char.IsDigit(ch))
 			{
-			    return false;
+				return false;
 			}
 		}
 		return true;
