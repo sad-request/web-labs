@@ -19,13 +19,13 @@ namespace CheckIdentifier
 		public static bool IsLatinLettersOrDigit(string input)
 		{
 			foreach (char ch in input)
-			    {
-			        if (!IsLatinLetter(ch) && !char.IsDigit(ch))
-			        {
-			            return false;
-			        }
-			    }
-				return true;
+			{
+				if (!IsLatinLetter(ch) && !char.IsDigit(ch))
+				{
+				    return false;
+				}
+			}
+			return true;
 		}
         
         public static bool CheckIdentifier(string input)
