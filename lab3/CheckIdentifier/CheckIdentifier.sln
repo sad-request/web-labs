@@ -4,7 +4,7 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # SharpDevelop 4.4
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckIdentifier", "CheckIdentifier\CheckIdentifier.csproj", "{53610C3F-8F4A-4B34-96EE-36869C2E184E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckIdentifier.Tests", "CheckIdentifier.Tests\CheckIdentifier.Tests.csproj", "{C2459058-707B-470B-9D19-92FB2DE1A3C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckIdentifierTests", "CheckIdentifier.Tests\CheckIdentifierTests.csproj", "{C2459058-707B-470B-9D19-92FB2DE1A3C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
