@@ -114,9 +114,9 @@ namespace PasswordStrengthTests
     public class CalculateSecurityByOnlyLettersTest
     {
         [TestMethod]
-        public void password_absc123_should_return_strength_equals_to_0()
+        public void DigitsAndLetters()
         {
-            string password = "absc123";
+            string password = "word123";
             int requiredStrength = 0;
             int res = Program.CalculateSecurityByOnlyLetters(password);
             Assert.AreEqual(requiredStrength, res);
