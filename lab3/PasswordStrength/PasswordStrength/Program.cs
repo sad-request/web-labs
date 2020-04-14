@@ -19,7 +19,7 @@ namespace PasswordStrength
 
          public static int CalculateSecurityByUpperCaseLettersTotal(string password)
         {
-         	var count = 0;
+            var count = 0;
             int upperLetterCount = password.Count(char.IsUpper);
             if (upperLetterCount != 0)
             {
@@ -30,7 +30,7 @@ namespace PasswordStrength
 
         public static int CalculateSecurityByLowerCaseLettersTotal(string password)
         {
-        	var count = 0;
+            var count = 0;
             int lowerLetterCount = password.Count(char.IsLower);
             if (lowerLetterCount != 0)
             {
@@ -51,7 +51,7 @@ namespace PasswordStrength
         
         public static int CalculateSecurityByOnlyDigits(string password)
         {
-        	var count = 0;
+            var count = 0;
             int lowerLetterCount = password.Count(char.IsDigit);
             if (lowerLetterCount == password.Length)
             {
